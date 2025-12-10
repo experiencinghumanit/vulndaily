@@ -8,16 +8,16 @@
 
 - **Total new items collected today:** 2668
 - **Breakdown by source:**
-  - **BleepingComputer Security News**: 13
-  - **CISA KEV**: 1472
-  - **Cisco Security Advisories**: 50
-  - **Debian Security Advisories**: 31
-  - **Hacker News - Security**: 21
-  - **Microsoft MSRC**: 911
-  - **Oracle Security Alerts**: 118
-  - **Red Hat RHSA**: 31
-  - **Ubuntu Security Notices**: 11
-  - **VMware Security Blog**: 10
+  - **BleepingComputer Security News**: [13](#source-bleepingcomputer-security-news)
+  - **CISA KEV**: [1472](#source-cisa-kev)
+  - **Cisco Security Advisories**: [50](#source-cisco-security-advisories)
+  - **Debian Security Advisories**: [31](#source-debian-security-advisories)
+  - **Hacker News - Security**: [21](#source-hacker-news-security)
+  - **Microsoft MSRC**: [911](#source-microsoft-msrc)
+  - **Oracle Security Alerts**: [118](#source-oracle-security-alerts)
+  - **Red Hat RHSA**: [31](#source-red-hat-rhsa)
+  - **Ubuntu Security Notices**: [11](#source-ubuntu-security-notices)
+  - **VMware Security Blog**: [10](#source-vmware-security-blog)
 - **Severity distribution:**
   - **CRITICAL**: [107](#critical-vulns)
   - **HIGH**: [24](#high-vulns)
@@ -29,8 +29,6 @@
 ## Patch Now – High Impact Items
 
 ### Newly Added CISA KEV (Known Exploited in the Wild)
-
-These vulnerabilities are actively exploited, so they’re my first stop when deciding what to patch.
 
 - [CVE-2010-5326 (KEV: SAP NetWeaver)](https://nvd.nist.gov/vuln/detail/CVE-2010-5326) — `CVE-2010-5326` — 2021-11-03T00:00:00+00:00
 - [CVE-2012-0158 (KEV: Microsoft MSCOMCTL.OCX)](https://nvd.nist.gov/vuln/detail/CVE-2012-0158) — `CVE-2012-0158` — 2021-11-03T00:00:00+00:00
@@ -48,13 +46,14 @@ These vulnerabilities are actively exploited, so they’re my first stop when de
 - [CVE-2016-4437 (KEV: Apache Shiro)](https://nvd.nist.gov/vuln/detail/CVE-2016-4437) — `CVE-2016-4437` — 2021-11-03T00:00:00+00:00
 - [CVE-2016-7255 (KEV: Microsoft Win32k)](https://nvd.nist.gov/vuln/detail/CVE-2016-7255) — `CVE-2016-7255` — 2021-11-03T00:00:00+00:00
 
-…and **1457 more** KEV entries were added today.
+…and **1457 more** KEV entries.
 
 
 <a id="vendor-advisories"></a>
 
 ## Vendor & Platform Advisories
 
+<a id="source-microsoft-msrc"></a>
 ### Microsoft MSRC
 
 - [CVE-2025-49734 PowerShell Direct Elevation of Privilege Vulnerability](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-49734) — `CVE-2025-49734` — 2025-09-11T12:00:00+00:00
@@ -73,6 +72,7 @@ These vulnerabilities are actively exploited, so they’re my first stop when de
 …and **899 more** from Microsoft MSRC.
 
 
+<a id="source-cisco-security-advisories"></a>
 ### Cisco Security Advisories
 
 - [Cisco Nexus 3000 and 9000 Series Switches Intermediate System-to-Intermediate System Denial of Service Vulnerability](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-n39k-isis-dos-JhJA8Rfx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Nexus%203000%20and%209000%20Series%20Switches%20Intermediate%20System-to-Intermediate%20System%20Denial%20of%20Service%20Vulnerability%26vs_k=1) — `CVE-2025-20241` — **HIGH** — 2025-08-27T21:00:00+00:00
@@ -91,6 +91,7 @@ These vulnerabilities are actively exploited, so they’re my first stop when de
 …and **38 more** from Cisco Security Advisories.
 
 
+<a id="source-red-hat-rhsa"></a>
 ### Red Hat RHSA
 
 - [RHSA-2025:22792: Important: thunderbird security update](https://access.redhat.com/errata/RHSA-2025:22792) — 2025-12-08T06:26:01+00:00
@@ -109,6 +110,7 @@ These vulnerabilities are actively exploited, so they’re my first stop when de
 …and **19 more** from Red Hat RHSA.
 
 
+<a id="source-oracle-security-alerts"></a>
 ### Oracle Security Alerts
 
 - [Critical Patch Update - July 2005](http://www.oracle.com/technetwork/topics/security/cpujul2005-090619.html) — **CRITICAL** — 2005-07-13T00:46:55+00:00
@@ -127,6 +129,7 @@ These vulnerabilities are actively exploited, so they’re my first stop when de
 …and **106 more** from Oracle Security Alerts.
 
 
+<a id="source-ubuntu-security-notices"></a>
 ### Ubuntu Security Notices
 
 - [USN-7912-2: CUPS vulnerability](https://ubuntu.com/security/notices/USN-7912-2) — `CVE-2025-58436` — **LOW** — 2025-12-04T23:22:26+00:00
@@ -141,6 +144,7 @@ These vulnerabilities are actively exploited, so they’re my first stop when de
 - [USN-7917-1: fontTools vulnerabilities](https://ubuntu.com/security/notices/USN-7917-1) — `CVE-2023-45139` — 2025-12-09T22:08:58+00:00
 - [USN-7918-1: Netty vulnerabilities](https://ubuntu.com/security/notices/USN-7918-1) — `CVE-2025-58056` — 2025-12-10T01:14:18+00:00
 
+<a id="source-debian-security-advisories"></a>
 ### Debian Security Advisories
 
 - [DSA-6045-1 pdns-recursor - security update](https://lists.debian.org/debian-security-announce/2025/msg00211.html) — 2025-10-29T05:00:00+00:00
@@ -159,6 +163,7 @@ These vulnerabilities are actively exploited, so they’re my first stop when de
 …and **19 more** from Debian Security Advisories.
 
 
+<a id="source-vmware-security-blog"></a>
 ### VMware Security Blog
 
 - [VMware vDefend: Accelerate Enterprise’s Zero Trust Private Cloud Journey with Micro-segmentation and NDR Innovations](https://blogs.vmware.com/security/2025/03/vdefend-microsegmentation.html) — **MEDIUM** — 2025-03-26T18:00:06+00:00
@@ -176,10 +181,7 @@ These vulnerabilities are actively exploited, so they’re my first stop when de
 
 ## Vulnerabilities by severity
 
-Sometimes I want to look across vendors and just see what landed at each severity level.
-
 <a id="critical-vulns"></a>
-
 ### CRITICAL
 
 - [Ivanti warns of critical Endpoint Manager code execution flaw](https://www.bleepingcomputer.com/news/security/ivanti-warns-of-critical-endpoint-manager-code-execution-flaw/) — **CRITICAL** — 2025-12-09T22:10:25+00:00
@@ -208,11 +210,10 @@ Sometimes I want to look across vendors and just see what landed at each severit
 - [Critical Patch Update - October 2008](http://www.oracle.com/technetwork/topics/security/cpuoct2008-100299.html) — **CRITICAL** — 2008-10-15T23:53:46+00:00
 - [Critical Patch Update - January 2009](http://www.oracle.com/technetwork/topics/security/cpujan2009-097901.html) — **CRITICAL** — 2009-04-15T03:40:50+00:00
 
-…and **82 more** critical items today.
+…and **82 more** critical.
 
 
 <a id="high-vulns"></a>
-
 ### HIGH
 
 - [Cisco Nexus 3000 and 9000 Series Switches Intermediate System-to-Intermediate System Denial of Service Vulnerability](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-n39k-isis-dos-JhJA8Rfx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Nexus%203000%20and%209000%20Series%20Switches%20Intermediate%20System-to-Intermediate%20System%20Denial%20of%20Service%20Vulnerability%26vs_k=1) — `CVE-2025-20241` — **HIGH** — 2025-08-27T21:00:00+00:00
@@ -241,7 +242,6 @@ Sometimes I want to look across vendors and just see what landed at each severit
 - [Accelerating Micro-segmentation Adoption with Security Segmentation Assessment](https://blogs.vmware.com/security/2025/06/accelerating-micro-segmentation.html) — **HIGH** — 2025-06-13T02:59:53+00:00
 
 <a id="medium-vulns"></a>
-
 ### MEDIUM
 
 - [Cisco Unified Communications Manager Cross-Site Request Forgery Vulnerability](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-csrf-w762pRYd?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Communications%20Manager%20Cross-Site%20Request%20Forgery%20Vulnerability%26vs_k=1) — `CVE-2025-20326` — **MEDIUM** — 2025-09-03T21:00:00+00:00
@@ -270,11 +270,10 @@ Sometimes I want to look across vendors and just see what landed at each severit
 - [Cisco Secure Firewall Adaptive Security Appliance Software and Secure Firewall Threat Defense Software VPN Web Server Unauthorized Access Vulnerability](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-webvpn-YROOTUW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20Software%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20VPN%20Web%20Server%20Unauthorized%20Access%20Vulnerability%26vs_k=1) — `CVE-2025-20333` — **MEDIUM** — 2025-11-07T04:50:55+00:00
 - [Cisco Catalyst Center Virtual Appliance HTTP Open Redirect Vulnerability](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-catc-open-redirect-3W5Bk3Je?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20Center%20Virtual%20Appliance%20HTTP%20Open%20Redirect%20Vulnerability%26vs_k=1) — `CVE-2025-20355` — **MEDIUM** — 2025-11-13T21:00:00+00:00
 
-…and **11 more** medium items today.
+…and **11 more** medium.
 
 
 <a id="low-vulns"></a>
-
 ### LOW
 
 - [DSA-6049-1 gimp - security update](https://lists.debian.org/debian-security-announce/2025/msg00215.html) — **LOW** — 2025-11-04T05:00:00+00:00
@@ -303,13 +302,14 @@ Sometimes I want to look across vendors and just see what landed at each severit
 - [CVE-2025-47979 Microsoft Failover Cluster Information Disclosure Vulnerability](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-47979) — `CVE-2025-47979` — **LOW** — 2025-10-14T12:00:00+00:00
 - [CVE-2025-48004 Microsoft Brokering File System Elevation of Privilege Vulnerability](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-48004) — `CVE-2025-48004` — **LOW** — 2025-10-14T12:00:00+00:00
 
-…and **322 more** low items today.
+…and **322 more** low.
 
 
 <a id="threat-intel"></a>
 
 ## Threat Intel & Security News
 
+<a id="source-bleepingcomputer-security-news"></a>
 ### BleepingComputer Security News
 
 - [Ransomware gangs turn to Shanya EXE packer to hide EDR killers](https://www.bleepingcomputer.com/news/security/ransomware-gangs-turn-to-shanya-exe-packer-to-hide-edr-killers/) — 2025-12-09T05:00:05+00:00
@@ -326,6 +326,7 @@ Sometimes I want to look across vendors and just see what landed at each severit
 - [Windows PowerShell now warns when running Invoke-WebRequest scripts](https://www.bleepingcomputer.com/news/security/microsoft-windows-powershell-now-warns-when-running-invoke-webrequest-scripts/) — 2025-12-10T01:45:20+00:00
 - [SAP fixes three critical vulnerabilities across multiple products](https://www.bleepingcomputer.com/news/security/sap-fixes-three-critical-vulnerabilities-across-multiple-products/) — **CRITICAL** — 2025-12-10T03:41:26+00:00
 
+<a id="source-hacker-news-security"></a>
 ### Hacker News - Security
 
 - [Building Browser Agents: Architecture, Security, and Practical Solutions](https://arxiv.org/abs/2511.19477) — 2025-12-07T15:17:38+00:00
@@ -351,13 +352,11 @@ Sometimes I want to look across vendors and just see what landed at each severit
 
 ## Full Raw Feed (For Analysts)
 
-<details><summary>Click to expand the complete data set collected today (grouped by source)</summary>
+<details><summary>Click to expand</summary>
 
 
-### Full Feed
-
-
-#### BleepingComputer Security News
+<a id="source-bleepingcomputer-security-news"></a>
+### BleepingComputer Security News
 
 - [Ransomware gangs turn to Shanya EXE packer to hide EDR killers](https://www.bleepingcomputer.com/news/security/ransomware-gangs-turn-to-shanya-exe-packer-to-hide-edr-killers/) — 2025-12-09T05:00:05+00:00
 - [Microsoft investigates Copilot outage affecting users in Europe](https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-copilot-outage-affecting-users-in-europe/) — 2025-12-09T16:48:39+00:00
@@ -373,7 +372,8 @@ Sometimes I want to look across vendors and just see what landed at each severit
 - [Windows PowerShell now warns when running Invoke-WebRequest scripts](https://www.bleepingcomputer.com/news/security/microsoft-windows-powershell-now-warns-when-running-invoke-webrequest-scripts/) — 2025-12-10T01:45:20+00:00
 - [SAP fixes three critical vulnerabilities across multiple products](https://www.bleepingcomputer.com/news/security/sap-fixes-three-critical-vulnerabilities-across-multiple-products/) — **CRITICAL** — 2025-12-10T03:41:26+00:00
 
-#### CISA KEV
+<a id="source-cisa-kev"></a>
+### CISA KEV
 
 - [CVE-2010-5326 (KEV: SAP NetWeaver)](https://nvd.nist.gov/vuln/detail/CVE-2010-5326) — `CVE-2010-5326` — 2021-11-03T00:00:00+00:00
 - [CVE-2012-0158 (KEV: Microsoft MSCOMCTL.OCX)](https://nvd.nist.gov/vuln/detail/CVE-2012-0158) — `CVE-2012-0158` — 2021-11-03T00:00:00+00:00
@@ -1848,7 +1848,8 @@ Sometimes I want to look across vendors and just see what landed at each severit
 - [CVE-2025-6218 (KEV: RARLAB WinRAR)](https://www.win-rar.com/singlenewsview.html?&L=0&tx_ttnews%5Btt_news%5D=276&cHash=b5165454d983fc9717bc8748901a64f9 ; https://nvd.nist.gov/vuln/detail/CVE-2025-6218) — `CVE-2025-6218` — 2025-12-09T00:00:00+00:00
 - [CVE-2025-62221 (KEV: Microsoft Windows)](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-62221 ; https://nvd.nist.gov/vuln/detail/CVE-2025-62221) — `CVE-2025-62221` — 2025-12-09T00:00:00+00:00
 
-#### Cisco Security Advisories
+<a id="source-cisco-security-advisories"></a>
+### Cisco Security Advisories
 
 - [Cisco Nexus 3000 and 9000 Series Switches Intermediate System-to-Intermediate System Denial of Service Vulnerability](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-n39k-isis-dos-JhJA8Rfx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Nexus%203000%20and%209000%20Series%20Switches%20Intermediate%20System-to-Intermediate%20System%20Denial%20of%20Service%20Vulnerability%26vs_k=1) — `CVE-2025-20241` — **HIGH** — 2025-08-27T21:00:00+00:00
 - [Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software for Firepower 3100 and 4200 Series TLS 1.3 Cipher Denial of Service Vulnerability](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-3100_4200_tlsdos-2yNSCd54?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20for%20Firepower%203100%20and%204200%20Series%20TLS%201.3%20Cipher%20Denial%20of%20Service%20Vulnerability%26vs_k=1) — `CVE-2025-20127` — **HIGH** — 2025-09-03T18:37:50+00:00
@@ -1901,7 +1902,8 @@ Sometimes I want to look across vendors and just see what landed at each severit
 - [Cisco Identity Services Engine Reflected Cross-Site Scripting and Information Disclosure Vulnerabilities](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multiple-vulns-O9BESWJH?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Reflected%20Cross-Site%20Scripting%20and%20Information%20Disclosure%20Vulnerabilities%26vs_k=1) — `CVE-2025-20289` — **MEDIUM** — 2025-12-04T19:23:54+00:00
 - [Remote Code Execution Vulnerability in React and Next.js Frameworks: December 2025](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-react-flight-TYw32Ddb?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Remote%20Code%20Execution%20Vulnerability%20in%20React%20and%20Next.js%20Frameworks:%20December%202025%26vs_k=1) — `CVE-2025-55182` — **CRITICAL** — 2025-12-09T03:30:06+00:00
 
-#### Debian Security Advisories
+<a id="source-debian-security-advisories"></a>
+### Debian Security Advisories
 
 - [DSA-6045-1 pdns-recursor - security update](https://lists.debian.org/debian-security-announce/2025/msg00211.html) — 2025-10-29T05:00:00+00:00
 - [DSA-6047-1 squid - security update](https://lists.debian.org/debian-security-announce/2025/msg00212.html) — 2025-10-30T05:00:00+00:00
@@ -1935,7 +1937,8 @@ Sometimes I want to look across vendors and just see what landed at each severit
 - [DSA-6074-1 webkit2gtk - security update](https://lists.debian.org/debian-security-announce/2025/msg00240.html) — `CVE-2025-13947` — **LOW** — 2025-12-09T05:00:00+00:00
 - [DSA-6075-1 wordpress - security update](https://lists.debian.org/debian-security-announce/2025/msg00241.html) — 2025-12-10T05:00:00+00:00
 
-#### Hacker News - Security
+<a id="source-hacker-news-security"></a>
+### Hacker News - Security
 
 - [Building Browser Agents: Architecture, Security, and Practical Solutions](https://arxiv.org/abs/2511.19477) — 2025-12-07T15:17:38+00:00
 - [New US Security Strategy Aligns with Russia's Vision, Moscow Says](https://www.bbc.com/news/articles/cpvd01g2kwwo) — 2025-12-07T20:53:41+00:00
@@ -1959,7 +1962,8 @@ Sometimes I want to look across vendors and just see what landed at each severit
 - [PEP 811 – Defining Python Security Response Team Membership and Responsibilities](https://peps.python.org/pep-0811/) — 2025-12-10T01:34:31+00:00
 - [Fear of the Walking Zig: The Security Audit Gap](https://generativeai.pub/fear-of-the-walking-zig-the-security-audit-gap-707aec6ceb92) — 2025-12-10T07:08:28+00:00
 
-#### Microsoft MSRC
+<a id="source-microsoft-msrc"></a>
+### Microsoft MSRC
 
 - [CVE-2025-49734 PowerShell Direct Elevation of Privilege Vulnerability](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-49734) — `CVE-2025-49734` — 2025-09-11T12:00:00+00:00
 - [Chromium: CVE-2025-10200 Use after free in Serviceworker](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-10200) — `CVE-2025-10200` — 2025-09-11T23:17:22+00:00
@@ -2873,7 +2877,8 @@ Sometimes I want to look across vendors and just see what landed at each severit
 - [CVE-2025-64679 Windows DWM Core Library Elevation of Privilege Vulnerability](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-64679) — `CVE-2025-64679` — **LOW** — 2025-12-09T13:00:00+00:00
 - [CVE-2025-64680 Windows DWM Core Library Elevation of Privilege Vulnerability](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-64680) — `CVE-2025-64680` — **LOW** — 2025-12-09T13:00:00+00:00
 
-#### Oracle Security Alerts
+<a id="source-oracle-security-alerts"></a>
+### Oracle Security Alerts
 
 - [Critical Patch Update - July 2005](http://www.oracle.com/technetwork/topics/security/cpujul2005-090619.html) — **CRITICAL** — 2005-07-13T00:46:55+00:00
 - [Critical Patch Update - October 2005](http://www.oracle.com/technetwork/topics/security/cpuoct2005-090497.html) — **CRITICAL** — 2005-10-19T03:25:52+00:00
@@ -2994,7 +2999,8 @@ Sometimes I want to look across vendors and just see what landed at each severit
 - [Oracle Security Alert for CVE-2025-61884 - 11 October 2025](https://www.oracle.com/security-alerts/alert-cve-2025-61884.html) — `CVE-2025-61884` — 2025-10-12T07:00:00+00:00
 - [Oracle Critical Patch Update Advisory - October 2025](https://www.oracle.com/security-alerts/cpuoct2025.html) — **CRITICAL** — 2025-10-22T00:30:54+00:00
 
-#### Red Hat RHSA
+<a id="source-red-hat-rhsa"></a>
+### Red Hat RHSA
 
 - [RHSA-2025:22792: Important: thunderbird security update](https://access.redhat.com/errata/RHSA-2025:22792) — 2025-12-08T06:26:01+00:00
 - [RHSA-2025:22791: Important: thunderbird security update](https://access.redhat.com/errata/RHSA-2025:22791) — **CRITICAL** — 2025-12-08T06:37:31+00:00
@@ -3028,7 +3034,8 @@ Sometimes I want to look across vendors and just see what landed at each severit
 - [RHSA-2025:23000: Moderate: kernel security update](https://access.redhat.com/errata/RHSA-2025:23000) — **CRITICAL** — 2025-12-10T06:02:52+00:00
 - [RHSA-2025:23002: Moderate: grafana security update](https://access.redhat.com/errata/RHSA-2025:23002) — 2025-12-10T06:12:27+00:00
 
-#### Ubuntu Security Notices
+<a id="source-ubuntu-security-notices"></a>
+### Ubuntu Security Notices
 
 - [USN-7912-2: CUPS vulnerability](https://ubuntu.com/security/notices/USN-7912-2) — `CVE-2025-58436` — **LOW** — 2025-12-04T23:22:26+00:00
 - [USN-7906-2: Linux kernel (GCP) vulnerabilities](https://ubuntu.com/security/notices/USN-7906-2) — `CVE-2025-40025` — **LOW** — 2025-12-05T15:31:43+00:00
@@ -3042,7 +3049,8 @@ Sometimes I want to look across vendors and just see what landed at each severit
 - [USN-7917-1: fontTools vulnerabilities](https://ubuntu.com/security/notices/USN-7917-1) — `CVE-2023-45139` — 2025-12-09T22:08:58+00:00
 - [USN-7918-1: Netty vulnerabilities](https://ubuntu.com/security/notices/USN-7918-1) — `CVE-2025-58056` — 2025-12-10T01:14:18+00:00
 
-#### VMware Security Blog
+<a id="source-vmware-security-blog"></a>
+### VMware Security Blog
 
 - [VMware vDefend: Accelerate Enterprise’s Zero Trust Private Cloud Journey with Micro-segmentation and NDR Innovations](https://blogs.vmware.com/security/2025/03/vdefend-microsegmentation.html) — **MEDIUM** — 2025-03-26T18:00:06+00:00
 - [VMware and Pwn2Own 2025 – Berlin](https://blogs.vmware.com/security/2025/05/vmware-and-pwn2own-2025-berlin.html) — `CVE-2025-41236` — **CRITICAL** — 2025-05-20T14:52:42+00:00
