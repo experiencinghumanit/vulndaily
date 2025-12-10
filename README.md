@@ -1,3 +1,8 @@
+---
+layout: default
+title: "VulnDaily"
+---
+
 # VulnDaily
 
 > Daily vulnerability briefings for those who work smart, not hard. 
