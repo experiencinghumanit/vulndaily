@@ -31,7 +31,6 @@ You should see:
 ## Repository structure
 - `README.md` – Entry page for Pages
 - `_config.yml` – Jekyll configuration
-- `_layouts/` – HTML layouts
 - `_posts/` – Auto-generated daily vulnerability roundups (`YYYY-MM-DD-vulndaily.md`)
 - `index.md` – Home page listing recent posts
 
