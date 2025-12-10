@@ -1,0 +1,6 @@
+title: VulnDaily
+description: Daily vulnerability briefings: CVEs, vendor advisories, and security news.
+theme: jekyll-theme-hacker
+
+url: "https://experiencinghumanit.github.io"
+baseurl: "/vulndaily"
