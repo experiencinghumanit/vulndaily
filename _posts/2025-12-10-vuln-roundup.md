@@ -1,17 +1,17 @@
 # Daily Security & Vulnerability Brief – 2025-12-10
 
-## 🧭 Quick navigation
+## Navigation
 
 [Highlights](#patch-now) · [Vendor advisories](#vendor-advisories) · [Severity view](#severity-view) · [Threat intel & news](#threat-intel) · [Full raw feed](#full-raw-feed)
 
-## 🔎 Summary
+## Summary
 
-- **Total new items collected today:** 2667
+- **Total new items collected today:** 2668
 - **Breakdown by source:**
   - **BleepingComputer Security News**: 13
   - **CISA KEV**: 1472
   - **Cisco Security Advisories**: 50
-  - **Debian Security Advisories**: 30
+  - **Debian Security Advisories**: 31
   - **Hacker News - Security**: 21
   - **Microsoft MSRC**: 911
   - **Oracle Security Alerts**: 118
@@ -24,9 +24,11 @@
   - **MEDIUM**: [36](#medium-vulns)
   - **LOW**: [347](#low-vulns)
 
-## 🚨 Patch Now – High Impact Items {#patch-now}
+<a id="patch-now"></a>
 
-### Newly Added CISA KEV (Known Exploited in the Wild) {#kev}
+## Patch Now – High Impact Items
+
+### Newly Added CISA KEV (Known Exploited in the Wild)
 
 These vulnerabilities are actively exploited, so they’re my first stop when deciding what to patch.
 
@@ -46,10 +48,12 @@ These vulnerabilities are actively exploited, so they’re my first stop when de
 - [CVE-2016-4437 (KEV: Apache Shiro)](https://nvd.nist.gov/vuln/detail/CVE-2016-4437) — `CVE-2016-4437` — 2021-11-03T00:00:00+00:00
 - [CVE-2016-7255 (KEV: Microsoft Win32k)](https://nvd.nist.gov/vuln/detail/CVE-2016-7255) — `CVE-2016-7255` — 2021-11-03T00:00:00+00:00
 
-…and **1457 more** KEV entries added today.
+…and **1457 more** KEV entries were added today.
 
 
-## 🏢 Vendor & Platform Advisories {#vendor-advisories}
+<a id="vendor-advisories"></a>
+
+## Vendor & Platform Advisories
 
 ### Microsoft MSRC
 
@@ -152,7 +156,7 @@ These vulnerabilities are actively exploited, so they’re my first stop when de
 - [DSA-6055-1 chromium - security update](https://lists.debian.org/debian-security-announce/2025/msg00221.html) — 2025-11-13T05:00:00+00:00
 - [DSA-6057-1 lxd - security update](https://lists.debian.org/debian-security-announce/2025/msg00222.html) — **LOW** — 2025-11-13T05:00:00+00:00
 
-…and **18 more** from Debian Security Advisories.
+…and **19 more** from Debian Security Advisories.
 
 
 ### VMware Security Blog
@@ -168,11 +172,16 @@ These vulnerabilities are actively exploited, so they’re my first stop when de
 - [Stacking Your Defenses: Integrating Advanced Threat Prevention and SIEM](https://blogs.vmware.com/security/2025/11/stacking-defenses-atp-siem.html) — **CRITICAL** — 2025-11-12T22:32:07+00:00
 - [vDefend DFW 1-2-3-4: Deploy Zero Trust Micro-segmentation in a Few Weeks to Rapidly Secure VCF Workloads](https://blogs.vmware.com/security/2025/11/vdefend-dfw-1-2-3-4-vcf.html) — **MEDIUM** — 2025-11-25T05:36:28+00:00
 
-## 🎚️ Vulnerabilities by severity {#severity-view}
+<a id="severity-view"></a>
 
-Sometimes I want to look across vendors and just see what’s blowing up at each severity level.
+## Vulnerabilities by severity
 
-### 🔥 CRITICAL {}
+Sometimes I want to look across vendors and just see what landed at each severity level.
+
+<a id="critical-vulns"></a>
+
+### CRITICAL
+
 - [Ivanti warns of critical Endpoint Manager code execution flaw](https://www.bleepingcomputer.com/news/security/ivanti-warns-of-critical-endpoint-manager-code-execution-flaw/) — **CRITICAL** — 2025-12-09T22:10:25+00:00
 - [Fortinet warns of critical FortiCloud SSO login auth bypass flaws](https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-forticloud-sso-login-auth-bypass-flaws/) — **CRITICAL** — 2025-12-09T23:36:48+00:00
 - [SAP fixes three critical vulnerabilities across multiple products](https://www.bleepingcomputer.com/news/security/sap-fixes-three-critical-vulnerabilities-across-multiple-products/) — **CRITICAL** — 2025-12-10T03:41:26+00:00
@@ -202,7 +211,10 @@ Sometimes I want to look across vendors and just see what’s blowing up at each
 …and **82 more** critical items today.
 
 
-### ⬆️ HIGH {}
+<a id="high-vulns"></a>
+
+### HIGH
+
 - [Cisco Nexus 3000 and 9000 Series Switches Intermediate System-to-Intermediate System Denial of Service Vulnerability](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-n39k-isis-dos-JhJA8Rfx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Nexus%203000%20and%209000%20Series%20Switches%20Intermediate%20System-to-Intermediate%20System%20Denial%20of%20Service%20Vulnerability%26vs_k=1) — `CVE-2025-20241` — **HIGH** — 2025-08-27T21:00:00+00:00
 - [Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software for Firepower 3100 and 4200 Series TLS 1.3 Cipher Denial of Service Vulnerability](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-3100_4200_tlsdos-2yNSCd54?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20for%20Firepower%203100%20and%204200%20Series%20TLS%201.3%20Cipher%20Denial%20of%20Service%20Vulnerability%26vs_k=1) — `CVE-2025-20127` — **HIGH** — 2025-09-03T18:37:50+00:00
 - [Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software for Firepower 2100 Series IPv6 over IPsec Denial of Service Vulnerability](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fp2k-IPsec-dos-tjwgdZCO?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20for%20Firepower%202100%20Series%20IPv6%20over%20IPsec%20Denial%20of%20Service%20Vulnerability%26vs_k=1) — `CVE-2025-20222` — **HIGH** — 2025-09-10T02:22:34+00:00
@@ -228,7 +240,10 @@ Sometimes I want to look across vendors and just see what’s blowing up at each
 - [Type Confusion in V8 in Google Chrome prior to 142.0.7444.59 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-13227) — **HIGH** — 2025-12-07T06:38:31+00:00
 - [Accelerating Micro-segmentation Adoption with Security Segmentation Assessment](https://blogs.vmware.com/security/2025/06/accelerating-micro-segmentation.html) — **HIGH** — 2025-06-13T02:59:53+00:00
 
-### ⬇️ MEDIUM {}
+<a id="medium-vulns"></a>
+
+### MEDIUM
+
 - [Cisco Unified Communications Manager Cross-Site Request Forgery Vulnerability](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-csrf-w762pRYd?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Communications%20Manager%20Cross-Site%20Request%20Forgery%20Vulnerability%26vs_k=1) — `CVE-2025-20326` — **MEDIUM** — 2025-09-03T21:00:00+00:00
 - [Cisco Evolved Programmable Network Manager Arbitrary File Upload Vulnerability](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-epni-arb-file-upload-jjdM2P83?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Evolved%20Programmable%20Network%20Manager%20Arbitrary%20File%20Upload%20Vulnerability%26vs_k=1) — `CVE-2025-20287` — **MEDIUM** — 2025-09-03T21:00:00+00:00
 - [Cisco Evolved Programmable Network Manager and Cisco Prime Infrastructure Information Disclosure Vulnerability](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-epnm-info-dis-zhPPMfgz?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Evolved%20Programmable%20Network%20Manager%20and%20Cisco%20Prime%20Infrastructure%20Information%20Disclosure%20Vulnerability%26vs_k=1) — `CVE-2025-20270` — **MEDIUM** — 2025-09-03T21:00:00+00:00
@@ -258,7 +273,10 @@ Sometimes I want to look across vendors and just see what’s blowing up at each
 …and **11 more** medium items today.
 
 
-### 🟢 LOW {}
+<a id="low-vulns"></a>
+
+### LOW
+
 - [DSA-6049-1 gimp - security update](https://lists.debian.org/debian-security-announce/2025/msg00215.html) — **LOW** — 2025-11-04T05:00:00+00:00
 - [DSA-6051-1 incus - security update](https://lists.debian.org/debian-security-announce/2025/msg00217.html) — **LOW** — 2025-11-10T05:00:00+00:00
 - [DSA-6057-1 lxd - security update](https://lists.debian.org/debian-security-announce/2025/msg00222.html) — **LOW** — 2025-11-13T05:00:00+00:00
@@ -288,7 +306,9 @@ Sometimes I want to look across vendors and just see what’s blowing up at each
 …and **322 more** low items today.
 
 
-## 📰 Threat Intel & Security News {#threat-intel}
+<a id="threat-intel"></a>
+
+## Threat Intel & Security News
 
 ### BleepingComputer Security News
 
@@ -327,7 +347,9 @@ Sometimes I want to look across vendors and just see what’s blowing up at each
 …and **6 more** stories.
 
 
-## 📚 Full Raw Feed (For Analysts) {#full-raw-feed}
+<a id="full-raw-feed"></a>
+
+## Full Raw Feed (For Analysts)
 
 <details><summary>Click to expand the complete data set collected today (grouped by source)</summary>
 
@@ -1911,6 +1933,7 @@ Sometimes I want to look across vendors and just see what’s blowing up at each
 - [DSA-6072-1 chromium - security update](https://lists.debian.org/debian-security-announce/2025/msg00238.html) — 2025-12-04T05:00:00+00:00
 - [DSA-6073-1 ffmpeg - security update](https://lists.debian.org/debian-security-announce/2025/msg00239.html) — 2025-12-07T05:00:00+00:00
 - [DSA-6074-1 webkit2gtk - security update](https://lists.debian.org/debian-security-announce/2025/msg00240.html) — `CVE-2025-13947` — **LOW** — 2025-12-09T05:00:00+00:00
+- [DSA-6075-1 wordpress - security update](https://lists.debian.org/debian-security-announce/2025/msg00241.html) — 2025-12-10T05:00:00+00:00
 
 #### Hacker News - Security
 
